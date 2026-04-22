@@ -1,0 +1,2982 @@
+[
+    {
+        "date": "2026-03-26",
+        "title": "NuTag*EJL0D85",
+        "amount": 3.2,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9790b1ee-e3e7-41cd-912e-fbb63b439db3"
+    },
+    {
+        "date": "2026-03-26",
+        "title": "Uniao Comercio Atacad",
+        "amount": 39.1,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "db65a454-2991-4a6a-b8f9-0899d426846e"
+    },
+    {
+        "date": "2026-03-26",
+        "title": "Auto Posto Imigrantes-",
+        "amount": 100.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "bd3b13d0-4a6f-4184-a9da-873e78c574aa"
+    },
+    {
+        "date": "2026-03-26",
+        "title": "NuTag*EJL0D85",
+        "amount": 13.7,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2efd5dac-3c2c-4ef1-af3f-3ff4c8962ae8"
+    },
+    {
+        "date": "2026-03-26",
+        "title": "NuTag*EJL0D85",
+        "amount": 6.1,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "bec800f1-f5eb-4311-8d2b-bcd01d8c0d5e"
+    },
+    {
+        "date": "2026-03-26",
+        "title": "Postomariaestela",
+        "amount": 50.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "8e411beb-4800-4f79-bf77-eaf33de15f83"
+    },
+    {
+        "date": "2026-03-25",
+        "title": "Uniao Comercio Atacad",
+        "amount": 74.61,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "511fc786-a9b2-4746-a258-6500ac4894fa"
+    },
+    {
+        "date": "2026-03-23",
+        "title": "Jeronimoatibaia - Parcela 1/2",
+        "amount": 68.5,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9045f702-e042-4a5c-98b5-f619bb44d5c9"
+    },
+    {
+        "date": "2026-03-23",
+        "title": "Drogaria Sao Paulo",
+        "amount": 47.83,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "8acfc1bf-c984-4080-94b2-870b38e732a7"
+    },
+    {
+        "date": "2026-03-23",
+        "title": "Mr Ice Sorvetes",
+        "amount": 32.44,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "55188527-095f-4dd0-a663-bbd2d9da1cd5"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Drogaria Sao Paulo",
+        "amount": 45.99,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "862e5948-7785-4c09-b0be-a45f54e94c5a"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Mp *Novaera",
+        "amount": 51.0,
+        "categoria": "Adega",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b3e242c9-cb9a-4fc0-834c-43244b5dae88"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Big Supermercados",
+        "amount": 11.32,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "31182f2e-d8e8-4b9d-9444-156919b807d4"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Convem Supermercados D",
+        "amount": 39.98,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "28e99763-e02e-47fa-a18b-81d2c096304f"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Chiquinhos Sorvetes",
+        "amount": 43.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4941fe64-5470-4f89-b63e-23440a755eb2"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Uniao Comercio Atacad",
+        "amount": 8.58,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "92f7320e-b2b7-4597-9f1e-c8970c64333f"
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Adriana Vieira de Mora",
+        "amount": 66.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "689ace6b-bd79-467d-9d5c-544a1a13778e"
+    },
+    {
+        "date": "2026-03-21",
+        "title": "Shopping da Utilidade",
+        "amount": 14.99,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9866cd81-ebc4-4c30-9ab7-033343644c27"
+    },
+    {
+        "date": "2026-03-21",
+        "title": "Rubensjosecampos",
+        "amount": 15.0,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "7c69c501-ef1e-4a56-8047-2a2339336078"
+    },
+    {
+        "date": "2026-03-21",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "e1b2a533-e7cd-4d11-9f52-8e6dfa5260ef"
+    },
+    {
+        "date": "2026-03-21",
+        "title": "Uniao Comercio Atacad",
+        "amount": 24.15,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "a96a299e-67a2-4960-951f-f1ea1fff3fbb"
+    },
+    {
+        "date": "2026-03-20",
+        "title": "Adriana Vieira de Mora",
+        "amount": 39.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "359ba0d1-c94a-4406-a4ae-72ade9f618d1"
+    },
+    {
+        "date": "2026-03-20",
+        "title": "Swift Ipiranga",
+        "amount": 4.17,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0b6b0cb3-82b2-4aff-81b4-c03179e5f60f"
+    },
+    {
+        "date": "2026-03-19",
+        "title": "Auto Posto Imigrantes-",
+        "amount": 219.05,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4e9b68e5-1068-4a5b-ab1d-33c9ecb2011b"
+    },
+    {
+        "date": "2026-03-19",
+        "title": "Zae Braganca",
+        "amount": 2.5,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "72e2ad10-90e9-42be-8c7d-5524bd4ab497"
+    },
+    {
+        "date": "2026-03-19",
+        "title": "Dia - Pedro",
+        "amount": 43.51,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "22e72b2b-844f-4d62-8aad-330a1ec54c32"
+    },
+    {
+        "date": "2026-03-19",
+        "title": "Chiquinho Sorvetes",
+        "amount": 31.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d692b96c-dd82-4680-a939-df5205f90f07"
+    },
+    {
+        "date": "2026-03-18",
+        "title": "Trigo Bom Paes Doce - Pedro",
+        "amount": 41.4,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "a78064a0-3114-4e99-9233-930f4dc7ba66"
+    },
+    {
+        "date": "2026-03-18",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 59.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d04831a0-4e83-4056-9b46-b1782f5ae715"
+    },
+    {
+        "date": "2026-03-18",
+        "title": "Keeta - Pedro",
+        "amount": 64.88,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "dca870c3-081f-4dbc-af7d-1734c6e75cfe"
+    },
+    {
+        "date": "2026-03-18",
+        "title": "Sos Farma Lj - Pedro",
+        "amount": 40.64,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "ae6efd59-d2dd-4c45-8f48-0daa57458cba"
+    },
+    {
+        "date": "2026-03-17",
+        "title": "Swift Ipiranga",
+        "amount": 22.75,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0ca5ecbd-aebe-48ba-b1c5-823edd5481cc"
+    },
+    {
+        "date": "2026-03-17",
+        "title": "62124999ana",
+        "amount": 9.98,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "3d8042f3-9638-43aa-8bab-e31bef365655"
+    },
+    {
+        "date": "2026-03-17",
+        "title": "Ebn *Capcut",
+        "amount": 65.9,
+        "categoria": "Canal Dark",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "583d7ace-0f0a-4d60-bc96-197f8c046ba7"
+    },
+    {
+        "date": "2026-03-16",
+        "title": "Panificadora Bolini",
+        "amount": 25.0,
+        "categoria": "Padaria",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0e8d5e50-3453-4013-8d89-f168e24dbdff"
+    },
+    {
+        "date": "2026-03-16",
+        "title": "Famosa Linguica",
+        "amount": 32.61,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b86c79b2-5ca1-4476-a3bd-3bcb18acfb75"
+    },
+    {
+        "date": "2026-03-16",
+        "title": "Bar e Restaurante",
+        "amount": 8.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "71f8efc3-1632-4f59-9e25-30bdf5446a8b"
+    },
+    {
+        "date": "2026-03-15",
+        "title": "Lojas Americanas",
+        "amount": 40.46,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f685ed8e-f0a4-4b6b-8b30-f3f1c00cf058"
+    },
+    {
+        "date": "2026-03-15",
+        "title": "Acai Mr Ice",
+        "amount": 29.88,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "dd2ca760-b4e5-4f8d-9bd2-105a96039b80"
+    },
+    {
+        "date": "2026-03-15",
+        "title": "R. F. Casa de Carnes",
+        "amount": 43.01,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9f7ee3db-a26e-4b1d-87c3-43046126ad7d"
+    },
+    {
+        "date": "2026-03-15",
+        "title": "Camilasayuri - Pedro",
+        "amount": 48.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "cc40d706-fddf-4eda-af19-a83090a188e2"
+    },
+    {
+        "date": "2026-03-15",
+        "title": "Zae Braganca",
+        "amount": 2.5,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b6034c02-37eb-4ed8-9717-92341c24c31b"
+    },
+    {
+        "date": "2026-03-15",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 27.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "3ad6a1a5-319f-41b7-8492-75f3c60003b1"
+    },
+    {
+        "date": "2026-03-14",
+        "title": "Fft Braganca Paulista",
+        "amount": 14.99,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4a81e100-51aa-49a6-b581-20fc67700f82"
+    },
+    {
+        "date": "2026-03-14",
+        "title": "1a99",
+        "amount": 34.96,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "e4649d73-432a-4e3c-bc8d-3be867e37b7d"
+    },
+    {
+        "date": "2026-03-14",
+        "title": "Alemagri Petshop",
+        "amount": 42.38,
+        "categoria": "Gatos",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f5fa353f-71ea-4d93-ae42-d10bb3abeb6b"
+    },
+    {
+        "date": "2026-03-14",
+        "title": "Lojas Renner Fl - Parcela 1/2",
+        "amount": 69.95,
+        "categoria": "Roupas",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2c23663a-1d9b-42be-a4d7-d42c33127d48"
+    },
+    {
+        "date": "2026-03-14",
+        "title": "Havan Braganca Paulist",
+        "amount": 69.97,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0d8e3f5f-73a9-4d1c-afb5-babcc1640ad9"
+    },
+    {
+        "date": "2026-03-14",
+        "title": "Chiquinhos Sorvetes",
+        "amount": 35.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "efa7f69c-bb37-4c46-9023-e5fa67a62819"
+    },
+    {
+        "date": "2026-03-13",
+        "title": "Microsoft - Gamepass Pedro",
+        "amount": 69.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d0ffc62b-019d-40a0-ab00-b56e38d7e1a6"
+    },
+    {
+        "date": "2026-03-13",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "eb64c00c-39b8-403e-8c06-aa41ff87d89c"
+    },
+    {
+        "date": "2026-03-12",
+        "title": "Koyodai Pastelaria Sal",
+        "amount": 35.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "dfd8dae7-7b17-4543-9613-26d2ffe78c6c"
+    },
+    {
+        "date": "2026-03-12",
+        "title": "Auto Posto Imigrantes-",
+        "amount": 235.54,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "7ea9db01-453c-4dff-976a-c9375bfb3a08"
+    },
+    {
+        "date": "2026-03-12",
+        "title": "Mp *Pijamasmodabr - Parcela 1/2",
+        "amount": 89.95,
+        "categoria": "Vitória",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4bd43e02-839e-477d-b6b2-08a4f57623b1"
+    },
+    {
+        "date": "2026-03-12",
+        "title": "Google One",
+        "amount": 9.99,
+        "categoria": "Assinatura",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "24450185-fdde-438d-8069-a2828f2eb932"
+    },
+    {
+        "date": "2026-03-11",
+        "title": "Drogaria Sao Paulo",
+        "amount": 15.58,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "abbb9e63-4044-4dd6-8f32-c11f3d162660"
+    },
+    {
+        "date": "2026-03-11",
+        "title": "Drogaria Sao Paulo",
+        "amount": 8.99,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2f265fb8-364d-464d-9f2b-17789fa1a36a"
+    },
+    {
+        "date": "2026-03-09",
+        "title": "Raia",
+        "amount": 135.99,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d081c669-09aa-45da-8e34-1a70cfaf9fbd"
+    },
+    {
+        "date": "2026-03-09",
+        "title": "Autozone Brasil Com Au",
+        "amount": 24.99,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "a57c389a-936c-45a1-9ca3-662599f50ade"
+    },
+    {
+        "date": "2026-03-09",
+        "title": "PJBANK PAGAMENTOS S.A.",
+        "amount": 2766.19,
+        "categoria": "Aluguel",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b8c874d1-1edc-4ea0-acb0-c5bb2d53826e"
+    },
+    {
+        "date": "2026-03-09",
+        "title": "Morana - Pedro - Parcela 1/2",
+        "amount": 154.85,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "755cf5e8-3bbc-4313-8c8a-7b2592a0f178"
+    },
+    {
+        "date": "2026-03-09",
+        "title": "Emporio do Aco - Pedro - Parcela 1/2",
+        "amount": 239.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "28e8e3de-981c-488b-8560-d46517fa08ed"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Nickssaruchas",
+        "amount": 75.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "317fab77-fd90-4ce9-a0c1-24cce55ea7fc"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Jim.Com* 35648572 Gab",
+        "amount": 80.0,
+        "categoria": "Cabeleireiro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "e1ff05fc-0cf6-4b92-a22b-6bf62bcb6399"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Karinedeoliveira - Pedro",
+        "amount": 195.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "815c7a47-7b46-4e6d-9194-88198a38b2fd"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Carrefour - Pedro",
+        "amount": 99.68,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "7e935597-59da-40ed-ac12-42f99b66740b"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 71.5,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0964a2b3-82d8-4753-8686-ae79c7ab1323"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "S Pigato Comercio",
+        "amount": 38.0,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "caebb933-d462-423a-ad94-a4f7f5c34f8d"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Dmfest Producoes e Eve",
+        "amount": 8.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "3ebceb2d-882f-4998-b58b-4cd35f03c37b"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Life By Vivara - Parcela 1/3",
+        "amount": 158.0,
+        "categoria": "Presente",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "924d40b4-e7cc-4bf5-b11e-a6025220a55c"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Mercado Livre - Pedro",
+        "amount": 102.48,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "bb8a8e0c-a87c-4533-a6b0-58bf5965f1be"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Jim.Com* Amac Comercio - Cadeira",
+        "amount": 190.0,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "39e88b1c-d0b0-49ba-873f-088c14b31abe"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Chiquinhos Sorvetes",
+        "amount": 23.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2c912c9d-552f-4315-8bd6-1cea5b213e92"
+    },
+    {
+        "date": "2026-03-08",
+        "title": "Dmfest Producoes e Eve",
+        "amount": 22.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "78c67277-d368-4841-8560-5559de985f7e"
+    },
+    {
+        "date": "2026-03-07",
+        "title": "Mp *Novaera",
+        "amount": 24.0,
+        "categoria": "Adega",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "538f7b74-97b0-4ba2-b7d3-e00b65ce896c"
+    },
+    {
+        "date": "2026-03-07",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 125.63,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "3aae65ea-a33c-4235-8f75-600dcd3ddf14"
+    },
+    {
+        "date": "2026-03-07",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4c66e9f8-f66c-4d51-a90a-8d72a0978f37"
+    },
+    {
+        "date": "2026-03-06",
+        "title": "Paygo*Valdirene Baccan - Pedro",
+        "amount": 79.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9abc5a02-d115-4c63-a8f1-b49b0da4a77f"
+    },
+    {
+        "date": "2026-03-06",
+        "title": "Vivara Lojavivara-7164 - Parcela 1/3",
+        "amount": 128.34,
+        "categoria": "Presente",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "a30cd86c-3253-400b-9a7c-e09c237052a0"
+    },
+    {
+        "date": "2026-03-06",
+        "title": "Assinatura HBO Max desconto Nubank",
+        "amount": 14.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6ab85cc2-3918-45e4-9f97-37caba17dec6"
+    },
+    {
+        "date": "2026-03-06",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 54.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "ef2a5948-2255-4181-89e9-cd256580befd"
+    },
+    {
+        "date": "2026-03-06",
+        "title": "Contas do Detran",
+        "amount": 194.17,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6b747fc4-9aa0-408b-8135-bf052ce0d0ce"
+    },
+    {
+        "date": "2026-03-05",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 16.78,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0b810f77-fdd9-4c71-827c-93a373e2b890"
+    },
+    {
+        "date": "2026-03-05",
+        "title": "Adriana Vieira de Mora - Pedro",
+        "amount": 21.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "ffa41437-c6ec-4963-b7dc-aaa07703f292"
+    },
+    {
+        "date": "2026-03-04",
+        "title": "Auto Posto Imigrantes-",
+        "amount": 177.04,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "0560fa2f-2891-41d4-b61c-33a8a326bd2f"
+    },
+    {
+        "date": "2026-03-04",
+        "title": "295 - Riachuelo-Sp - Parcela 1/2",
+        "amount": 44.99,
+        "categoria": "Roupas",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "208f8801-b8ac-4986-9921-c333675f7e9d"
+    },
+    {
+        "date": "2026-03-04",
+        "title": "Administradora",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "8aaa285c-dd26-473c-b87a-c7bc401ae0da"
+    },
+    {
+        "date": "2026-03-04",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 70.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f07cd737-9950-4ce3-bb7e-e51e45b1d55a"
+    },
+    {
+        "date": "2026-03-04",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 76.66,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2a4ab5e8-6a9d-4c6c-ba92-807267f43ea5"
+    },
+    {
+        "date": "2026-03-03",
+        "title": "Jose Augusto Rodrigues - Álbum Pedro - Parcela 1/2",
+        "amount": 115.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2cc2fa88-0858-4b4a-9df0-ea6e02e8266c"
+    },
+    {
+        "date": "2026-03-03",
+        "title": "Comercial - Pedro",
+        "amount": 34.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "c840e32d-46ca-4a9d-9214-f0c84e486e17"
+    },
+    {
+        "date": "2026-03-03",
+        "title": "Netflix.Com",
+        "amount": 57.8,
+        "categoria": "Assinatura",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9eb3a35c-f8db-4bdf-84e5-c5bbee4d445c"
+    },
+    {
+        "date": "2026-03-02",
+        "title": "Mr Ice Sorvetes",
+        "amount": 48.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4a2b0afa-ca63-4916-95fc-4cb98889018e"
+    },
+    {
+        "date": "2026-03-02",
+        "title": "Padaria Galileia",
+        "amount": 8.0,
+        "categoria": "Padaria",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "c722f058-2b4f-44fd-a04a-6eedef41590b"
+    },
+    {
+        "date": "2026-03-02",
+        "title": "Google Youtube",
+        "amount": 53.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "df2dab3a-3d95-4358-83b8-ba2a1657481d"
+    },
+    {
+        "date": "2026-03-02",
+        "title": "Mp *Lamerkparfum - Pedro",
+        "amount": 24.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6564a658-ced6-481e-95dc-2defee537fda"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Microsoft*Microsoft",
+        "amount": 9.0,
+        "categoria": "Assinatura",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "68ce46b5-18b7-422f-a924-203452c340b4"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Mmsconviniencia",
+        "amount": 58.0,
+        "categoria": "Resenha",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "e15488e9-e8bb-45ed-9a87-9082a1de183a"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Drogaria Sao Paulo",
+        "amount": 71.17,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b35d4ee5-9843-444d-8ab5-956dba678d8c"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Bellasantacruz",
+        "amount": 6.2,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "adcca9f5-73fc-49f1-a4ed-81f79b015156"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "NuTag*EJL0D85",
+        "amount": 3.2,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "10e2c75d-d491-4b36-abb2-a50f4047461d"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Posto Maria Estela - Pedro",
+        "amount": 150.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d9112410-605b-455f-bd4d-f77e49c91f50"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 97.91,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "38c2fb48-d6db-4710-b588-6b321dceb095"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Rrb Comercio e Confecc - Tênis Pedro - Parcela 1/3",
+        "amount": 126.68,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "dbabf6be-ca92-4ed1-9730-9b3a3d6d028e"
+    },
+    {
+        "date": "2026-03-01",
+        "title": "Youcom Fl - Parcela 1/2",
+        "amount": 99.95,
+        "categoria": "Roupas",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "8e9a886f-fdeb-4508-b80b-f85621829912"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "Centro Comercial Aveni - Posto de Gasolina",
+        "amount": 178.41,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "11eca578-189c-4ff1-98c1-de099bca2bd1"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "NuTag*EJL0D85",
+        "amount": 3.2,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "227ba031-574e-483d-a34e-e4c752f34c46"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "Av Nazare - Pedro",
+        "amount": 47.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d643488a-e6cb-4e26-9103-5ab7154d8ae0"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "Centro Medico Veterina - Pedro",
+        "amount": 160.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b9e7afe1-5dd9-4814-9e48-29262c7a5f18"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "A Fazenda Rosario",
+        "amount": 230.34,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f800ac4a-68c4-443b-96de-bdc6439e4e0e"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "Rededrogatem",
+        "amount": 10.0,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "395c9b66-a0d8-4a26-b36b-b1f6077ba7c1"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "Cobasi Comercio de Pro",
+        "amount": 42.8,
+        "categoria": "Gatos",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d6b4e34b-aaf8-4e0e-9652-600780f78c26"
+    },
+    {
+        "date": "2026-02-28",
+        "title": "Drogaria Sao Paulo",
+        "amount": 31.97,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "79878aa2-42f8-4e68-8dd1-4c855f24a550"
+    },
+    {
+        "date": "2026-02-27",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "fac9a354-6f08-4afb-9e6f-0ec3dc0b7bbe"
+    },
+    {
+        "date": "2026-02-27",
+        "title": "Gocase *Gocase - Parcela 1/3",
+        "amount": 94.94,
+        "categoria": "Vitória",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "ad1601c7-f422-49c2-93c6-bfe6a5f68f63"
+    },
+    {
+        "date": "2026-02-27",
+        "title": "Ebn *Spotify",
+        "amount": 40.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "813b996c-aea1-42d9-9698-cad6bed5f3b0"
+    },
+    {
+        "date": "2026-02-27",
+        "title": "Mp *Novaera",
+        "amount": 37.0,
+        "categoria": "Adega",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "09e05bb2-5384-44a5-89e1-e71dfb42a48a"
+    },
+    {
+        "date": "2026-02-27",
+        "title": "Keeta - Pedro",
+        "amount": 71.97,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "774030ab-4e58-42c0-9492-25e71e9ed085"
+    },
+    {
+        "date": "2026-02-26",
+        "title": "Uniao Comercio Atacad",
+        "amount": 15.47,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "17a98eea-58eb-4a5a-9aed-6333c3a48aa7"
+    },
+    {
+        "date": "2026-02-26",
+        "title": "Drogaria Sao Paulo",
+        "amount": 27.59,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "91613c0e-f07b-4282-ad30-2600c4696716"
+    },
+    {
+        "date": "2026-02-26",
+        "title": "Mr. Ice",
+        "amount": 28.92,
+        "categoria": "Fastfood",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "59e3c9e3-075a-4bad-8ee1-f03f50151c16"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Lojas Americanas",
+        "amount": 46.96,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "dd66a3d0-c6c0-4cef-9735-cdca55fc57a9"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Mercadolivre*2produto",
+        "amount": 88.79,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "c9fd11f5-1690-4a59-b231-d16005d69cd0"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Perfumaria Sumire",
+        "amount": 68.85,
+        "categoria": "Vitória",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "fd694827-7fcf-421f-b6d4-2ea637daf400"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Uniao Comercio Atacad",
+        "amount": 65.89,
+        "categoria": "Mercado",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6aedb8ad-7a0e-4761-b032-a161c581bd94"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Vestcasa Braganca Paul",
+        "amount": 50.29,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "07961257-c7e7-4559-ae7d-9d0c8a34c1fb"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Drogaria Sao Paulo",
+        "amount": 42.21,
+        "categoria": "Farmácia",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "e5fdb16d-e3fb-4a59-a839-900459c5bb4c"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 120.3,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "330993d4-a2b7-48e2-8817-be06d1ef182b"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Jim.Com* 61501799 Gust - Pedro carro lavagem",
+        "amount": 55.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "69a1015d-3367-412c-bb35-bd29d322c672"
+    },
+    {
+        "date": "2026-02-25",
+        "title": "Havan Braganca Paulist",
+        "amount": 25.98,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "5a6e4cbf-373d-49de-8d7d-3119d9bfc7fe"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Jurandirgarcia - 3/3",
+        "amount": 15.83,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "26881631-93ad-43d6-8602-348669b8ebe4"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Cybercomp - Sorveteria - 3/3",
+        "amount": 16.88,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b0c92d14-30b8-4266-be55-4e272805b6fd"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Comercial Peck de Alim - 3/3",
+        "amount": 33.31,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "9bef4ee5-7317-49ec-abeb-cf0bcf2ec55a"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Adega Bebs Tudo - 3/3",
+        "amount": 26.56,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "052f8fff-0cfe-4be1-b87f-9e718336f4a5"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Bar da Praia Martim de - 3/3",
+        "amount": 34.02,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "60be904c-378e-4dc6-9698-019bc07e2b23"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Comercial Peck de Alim - Mercado - 3/3",
+        "amount": 102.76,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "aae22e53-49b2-42e2-920e-2c1511a50376"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Hortifruti - 3/3",
+        "amount": 14.07,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "10e6c88b-168c-4edb-8158-0e82c0a19814"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mp *Vini - Pedro",
+        "amount": 35.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "c356b897-96d5-40eb-9930-655b9e8cd5b2"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mp *Valcam - Parcela 2/2",
+        "amount": 247.5,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6607d5fd-911e-41ab-bead-f75aeb42134e"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Amazon - Airfryer Pedro - Parcela 2/5",
+        "amount": 95.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "eff8095f-8846-47d9-851c-75a53170c516"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mp *Easyoilbr - Velas Celta - Parcela 2/2",
+        "amount": 75.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "57f2e524-2c03-4aa6-b1a5-029980659428"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Kee*Miami Burger - Pedro",
+        "amount": 66.49,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6e57605f-6bb2-488a-9c39-e36054885e53"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Adega Bebs Tudo - 3/3",
+        "amount": 18.29,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "76a86a80-692d-45a6-a165-05a3ebe8592c"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Domquixote - 3/3",
+        "amount": 111.04,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "4a3d1545-bdb3-43a6-96b0-33c4711839aa"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2d8cffed-39de-4426-8a3e-83860575a40b"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Mp *Fell - 3/3",
+        "amount": 26.38,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2d599a92-469a-45ef-8dce-1501ec8e23a9"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mercadolivre* iPad Vitória - Parcela 5/12",
+        "amount": 222.08,
+        "categoria": "Vitória",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "cbbf4cc0-cd1d-4db3-9b53-c8c8db26380a"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "EBW*NuViagens - NuPay - Parcela 9/12",
+        "amount": 142.49,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f97b63bd-0488-4550-a178-0df3cd49eac8"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Kiskonofre - Quiosque - 3/3",
+        "amount": 23.61,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "c9859f95-2903-4821-9d13-457ec9343ae7"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Adega Bebs Tudo - 3/3",
+        "amount": 123.14,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "edca40cb-67dc-4565-bd9c-94668fac72eb"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Havan Braganca Paulist - Parcela 2/2",
+        "amount": 64.98,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "3b50898e-d9a6-4f57-b892-a6db2bab7c58"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Comercial Peck de Alim - 3/3",
+        "amount": 47.82,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "a819c6da-ce95-49be-8005-460a4b93e8c3"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Jr Ribeiro da Silva A - Açougue - 3/3",
+        "amount": 11.14,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f94725e2-ad4b-4f38-8b6d-e58d9bd98983"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mercadolivre*Mercadol - Note Pedro - Parcela 4/10",
+        "amount": 264.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "35d0e6ab-f0b9-4cf6-9d41-02d6a6c84c68"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Barracadatata - 3/3",
+        "amount": 38.7,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "ea8d5462-4f63-492f-811e-eb020d77d583"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Bare Auto Posto - 3/3",
+        "amount": 61.22,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "487776e2-3724-41bb-ba41-a98d717b2d64"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "LG TV nova - Parcela 11/12",
+        "amount": 243.67,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "fe4fa55e-2eaf-49d6-8a8a-bde17b2946d9"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 74.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "47e81426-3cf7-447d-88a1-792c51ca4337"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Panificadora Bolini L",
+        "amount": 4.0,
+        "categoria": "Padaria",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "ab7e2d5d-630e-4350-bc63-f239bbc2266e"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mercadolivre*3produto - Parcela 2/2",
+        "amount": 49.0,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f564233a-d28e-4cd6-a5c2-96b5643bb5c3"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Mercado Boa Vista de C - 3/3",
+        "amount": 11.42,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "539715b1-335c-40b6-82a4-5f004a5d68b7"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Quiosque Jamaica - 3/3",
+        "amount": 15.48,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "aa6df662-6a9c-406d-bbfb-b438872618d7"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Adega Bebs Tudo - 3/3",
+        "amount": 28.84,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "2c1c1ce5-28a8-40e2-bec1-ca6708dc3c2b"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "G B Sp Comercio de - Pneus Carro - Parcela 4/6",
+        "amount": 96.63,
+        "categoria": "Carro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "da6f3c15-8b35-49cb-b46a-338ef85d4e64"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Comercial Peck de Alim - 3/3",
+        "amount": 11.81,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "6859d7b4-e634-441b-82cc-61a65014d07b"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Mobly Comercio Varejis - Parcela 2/10",
+        "amount": 285.14,
+        "categoria": "Casa",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "d25d8cdd-b489-410c-8c9f-91283876f9fd"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Petz - Gatos - Parcela 2/2",
+        "amount": 99.98,
+        "categoria": "Gatos",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "b8b56b1f-eeee-48d5-ac7b-3d15e9ea1b2d"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Quiosque do Expedito - 3/3",
+        "amount": 111.18,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "f21352bd-4f33-4ca3-8545-58b2902db597"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Billy Bruto Hamburguer - 3/3",
+        "amount": 104.88,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "fa5ee83a-e71f-4696-b873-9fd271f57e7f"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Adega Bebs Tudo - 3/3",
+        "amount": 11.25,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "c567308d-af9e-469b-8515-b3b2f09b2962"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Carrefour Anchieta Petz Pedro - Parcela 4/12",
+        "amount": 6.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "923d299b-a083-44c3-8309-5beb1564f501"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Comercial Peck de Alim - 3/3",
+        "amount": 39.16,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "765e537c-37a5-439f-9669-e2e7f07da9bd"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Estefanidesouzasi - 3/3",
+        "amount": 14.07,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "5240669f-8ed1-41f0-b189-e8e101c1fb87"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Autopostoirmaos - Pedro",
+        "amount": 70.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "7bd9d11a-4469-4908-94fa-96f9cdd1263d"
+    },
+    {
+        "date": "2026-02-24",
+        "title": "Parcelamento de Compra - Posto Tancredo Neves - 3/3",
+        "amount": 83.28,
+        "categoria": "Viagem",
+        "mes_referencia": "Março",
+        "arquivo_origem": "Nubank_Março.csv",
+        "id": "59b5cb89-695a-44c5-8d24-a0a5a6ad4659"
+    },
+    {
+        "date": "2026-04-22",
+        "title": "62124999ana - Mercado condomínio",
+        "amount": 20.39,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "542cf689-e01b-4c66-bdec-77bc512ecff1"
+    },
+    {
+        "date": "2026-04-22",
+        "title": "Mercadolivre*Mundodej",
+        "amount": 27.71,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "3b8e3a3c-ac77-4094-a4d7-e41773ef21a9"
+    },
+    {
+        "date": "2026-04-22",
+        "title": "Rw Negocios Comerciais - Crocs Vitória - Parcela 1/3",
+        "amount": 124.67,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "5a184414-9a1c-43e7-8598-12aa1ce18757"
+    },
+    {
+        "date": "2026-04-22",
+        "title": "Chendel Participacoes",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "af6d1372-4219-4c79-a340-4d61636c344d"
+    },
+    {
+        "date": "2026-04-22",
+        "title": "Foodwish Gastronomia",
+        "amount": 57.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "7919d8e6-d6f8-47e6-ba57-2d963588f13c"
+    },
+    {
+        "date": "2026-04-21",
+        "title": "Panificadora Bolini",
+        "amount": 22.0,
+        "categoria": "Padaria",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "9e66929f-9074-4874-a95c-812b908821a0"
+    },
+    {
+        "date": "2026-04-21",
+        "title": "64.501.454 Caio Eduard",
+        "amount": 38.0,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "c5325a6e-ef5d-4084-88d0-e79663b225da"
+    },
+    {
+        "date": "2026-04-20",
+        "title": "Big Supermercados",
+        "amount": 49.65,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "d998bda9-b281-41ee-b526-b86505da2a2f"
+    },
+    {
+        "date": "2026-04-20",
+        "title": "Coffee And Co Ipiranga",
+        "amount": 134.64,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "88eced1f-2df2-4df6-82a0-4c2e7deead14"
+    },
+    {
+        "date": "2026-04-20",
+        "title": "Carrefour - Gasolina",
+        "amount": 159.64,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "bd0f381e-7fdf-4fec-a416-84011521a4cd",
+        "subcategoria": "Gasolina"
+    },
+    {
+        "date": "2026-04-20",
+        "title": "Yohana - Pedro",
+        "amount": 113.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a531ae66-45c2-4b51-80f6-70d9309e14d3"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "NuTag*EJL0D85",
+        "amount": 3.2,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "5038b7ac-a661-43df-8314-d85b1474cbed"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "Drogaria Sao Paulo",
+        "amount": 14.5,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "f0267125-0664-43cd-92cd-3c90ddf73571"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "Drogaria Sao Paulo",
+        "amount": 7.99,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "da294369-d9e6-4291-a7e0-f087ef2e85df"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "Carrefour Spa",
+        "amount": 24.52,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "5219fb13-d7f9-4209-b937-497f8f453c17"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "Oxxo Caste - Pedro",
+        "amount": 8.99,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "fd53aa8f-f29d-4951-a166-0c1fdca302e6"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "Drogaria Sao Paulo",
+        "amount": 11.49,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "72a621ae-30d7-45f8-8c6d-534dcab9735d"
+    },
+    {
+        "date": "2026-04-19",
+        "title": "Gersonmassahiroos - Pastel",
+        "amount": 29.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "473b66b7-7400-4f15-a44b-d61003764b47"
+    },
+    {
+        "date": "2026-04-18",
+        "title": "Keeta - Pedro",
+        "amount": 38.95,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "2fa38fd0-031e-43d1-9815-1de410b8d3e7"
+    },
+    {
+        "date": "2026-04-18",
+        "title": "Mmsconviniencia",
+        "amount": 94.15,
+        "categoria": "Resenha",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "07934cee-9a21-4632-b78f-8c110c70f966"
+    },
+    {
+        "date": "2026-04-18",
+        "title": "Autopostoirmaos - Pedro",
+        "amount": 50.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a735e62d-121c-44ad-b4aa-386433ff4291"
+    },
+    {
+        "date": "2026-04-18",
+        "title": "Gomes Minimercado",
+        "amount": 20.81,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "96d910c8-6484-4194-8681-6f52a8f7babe"
+    },
+    {
+        "date": "2026-04-18",
+        "title": "Autozone Brasil Com Au",
+        "amount": 24.99,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "cb5f2240-68db-42b1-bc0f-6cbe77c12da2"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "BRAGANÇA PAULISTA",
+        "amount": 79.73,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "530888a6-6f0f-46bc-9b5b-64f1de4c55e3"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "MINISTERIO DA JUSTICA - DPTO. DE POLICIA RODO",
+        "amount": 79.73,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "4d96c908-4430-44a3-99aa-a473684f24a8"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "62124999ana - Mercadinho Condomínio",
+        "amount": 23.67,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "9cf921fb-1328-48d2-96b4-d36a44b3567e"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "Drogaria Sao Paulo",
+        "amount": 35.58,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "005600b2-63a5-4da6-88e7-2ff4560d1f2d"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "Zae Braganca",
+        "amount": 2.5,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a8bf3a70-5da5-4b68-bccf-bd01dd659c27"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "Zae Braganca",
+        "amount": 2.5,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "ba7d0adb-cdf5-4467-971a-9433896c4e32"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "Ebn*Capcut",
+        "amount": 65.9,
+        "categoria": "Canal Dark",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "36c94e6c-bb3a-4355-80b0-923e3cdf021f"
+    },
+    {
+        "date": "2026-04-17",
+        "title": "Www.Herokucharge.Com",
+        "amount": 5.2,
+        "categoria": "Lucas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "e6b6ddc4-f989-42a7-b2f5-3c46d7483725"
+    },
+    {
+        "date": "2026-04-16",
+        "title": "Jim.Com* 35648572 Gabr - Cabeleireiro",
+        "amount": 40.0,
+        "categoria": "Lucas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "98258f6e-a3d8-42a8-a5fc-480f7dd5a2fc"
+    },
+    {
+        "date": "2026-04-16",
+        "title": "Acai Mr Ice",
+        "amount": 58.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "66c4c767-cf71-4346-8772-9cc22a7ae055"
+    },
+    {
+        "date": "2026-04-15",
+        "title": "Auto Posto Sorriso",
+        "amount": 230.94,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "13a88be3-af06-4d0a-a6bc-f8e95135ac81"
+    },
+    {
+        "date": "2026-04-15",
+        "title": "Adriana Vieira de Mora - Pedro",
+        "amount": 18.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "c44e9b05-33aa-4f20-9620-0f5f35e98480"
+    },
+    {
+        "date": "2026-04-14",
+        "title": "Centro Medico Veterina - Pedro - Parcela 1/2",
+        "amount": 105.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "62d4f1f7-2b47-45e0-915a-890ffd5a2f35"
+    },
+    {
+        "date": "2026-04-14",
+        "title": "Karinedeoliveira - Pedro",
+        "amount": 195.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "907e5a5b-767e-4505-ab66-efc6187492f6"
+    },
+    {
+        "date": "2026-04-13",
+        "title": "Mar Cristal Paes e - Pedro",
+        "amount": 54.31,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "bef8f9b9-9cb1-4701-8eb1-c98db355eb17"
+    },
+    {
+        "date": "2026-04-13",
+        "title": "Drogaria Sao Paulo",
+        "amount": 54.86,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "f53dc2d2-6f73-410d-aa44-0bea1e325008"
+    },
+    {
+        "date": "2026-04-13",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 68.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "6f528986-e933-4193-94ec-6dd05f137f27"
+    },
+    {
+        "date": "2026-04-13",
+        "title": "Deposito Rufino Materi - Pedro",
+        "amount": 8.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "66dfc022-9415-42a7-a4a3-6f7cda038700"
+    },
+    {
+        "date": "2026-04-13",
+        "title": "R. F. Casa de Carnes",
+        "amount": 54.66,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "b9a40636-c334-4623-92a9-67fd85a5f7c9"
+    },
+    {
+        "date": "2026-04-12",
+        "title": "Unilab",
+        "amount": 42.8,
+        "categoria": "Médico",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "8a565b23-aeab-44d7-9678-ebc39b9ae82b"
+    },
+    {
+        "date": "2026-04-12",
+        "title": "Drogaria Sao Paulo",
+        "amount": 58.68,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a56b0ad7-016d-43e4-97a6-f390083e54ed"
+    },
+    {
+        "date": "2026-04-12",
+        "title": "Miranda s Galeteria - Pedro",
+        "amount": 147.84,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "868bde7e-d4a4-4160-98bb-745fb2f7867e"
+    },
+    {
+        "date": "2026-04-12",
+        "title": "Google One",
+        "amount": 9.99,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "bb94ab4a-addc-4af3-befc-c2dececa85b0"
+    },
+    {
+        "date": "2026-04-11",
+        "title": "Autopostoirmaos - Pedro",
+        "amount": 150.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "cddc2125-e5bf-46cd-88be-48c42b36153f"
+    },
+    {
+        "date": "2026-04-11",
+        "title": "Mr. Fritz",
+        "amount": 68.8,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "03e233ac-0142-400c-a6cc-f577f2a8d497"
+    },
+    {
+        "date": "2026-04-11",
+        "title": "Administradora",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a4ad3e79-3701-41a2-ab13-f08fe9ffba21"
+    },
+    {
+        "date": "2026-04-10",
+        "title": "Drogaria Sao Paulo",
+        "amount": 4.4,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "6be09fed-f8fa-425b-abe4-ac63522b5aa9"
+    },
+    {
+        "date": "2026-04-10",
+        "title": "Estacionamento",
+        "amount": 15.0,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "e797a28f-af21-44b5-87c8-93292531515d"
+    },
+    {
+        "date": "2026-04-08",
+        "title": "NuTag*EJL0D85",
+        "amount": 3.2,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "d913725c-7611-4ca6-bc71-6d34b857827c"
+    },
+    {
+        "date": "2026-04-08",
+        "title": "NuTag*EJL0D85",
+        "amount": 3.2,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "514ece19-6dcf-4c51-af1c-8ae4692a6cd2"
+    },
+    {
+        "date": "2026-04-08",
+        "title": "Zanella S Bar e Lancho - Pedro",
+        "amount": 57.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "02c55f53-459c-4146-a6f2-236139abd1aa"
+    },
+    {
+        "date": "2026-04-07",
+        "title": "Auto Posto Imigrantes-",
+        "amount": 182.02,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "57eb8bfd-0483-4e84-a404-7f2b47c8ea71"
+    },
+    {
+        "date": "2026-04-07",
+        "title": "Smart Move - Capa e Película iPhone vitória",
+        "amount": 170.0,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "d0406449-310e-462a-9be5-3a9f7e322ae5"
+    },
+    {
+        "date": "2026-04-07",
+        "title": "Drogaria Sao Paulo",
+        "amount": 42.68,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "4f1eb107-ffd5-4bff-8af1-c0f6a3b751cc"
+    },
+    {
+        "date": "2026-04-07",
+        "title": "Chiquinhos Sorvetes",
+        "amount": 41.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "0e55b895-7186-4654-8024-df04ec0a39ce"
+    },
+    {
+        "date": "2026-04-06",
+        "title": "Assinatura HBO Max desconto Nubank",
+        "amount": 14.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "d5e3f6eb-4764-491f-a947-712d570aec0a"
+    },
+    {
+        "date": "2026-04-06",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a0f3fea1-2ed5-44fa-a1de-9571628619e9"
+    },
+    {
+        "date": "2026-04-06",
+        "title": "Amazon - celular Vitória - Parcela 1/12",
+        "amount": 424.87,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "0af79825-f488-4ff8-95a9-fb7a0f3d8031"
+    },
+    {
+        "date": "2026-04-06",
+        "title": "Shopping da Utilidade",
+        "amount": 93.98,
+        "categoria": "Casa",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "0727c165-a573-461d-94d0-3f759bb4a494"
+    },
+    {
+        "date": "2026-04-06",
+        "title": "Keeta - Pedro",
+        "amount": 59.13,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "9177f405-2b1a-4c8a-88dc-8552a566e546"
+    },
+    {
+        "date": "2026-04-05",
+        "title": "Gomes Minimercado",
+        "amount": 54.12,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "17e0f5cd-ac24-4651-aff1-811f90e0fad1"
+    },
+    {
+        "date": "2026-04-05",
+        "title": "Ifd*Show de Cacau Come",
+        "amount": 116.97,
+        "categoria": "Páscoa",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "26f3ef07-7fba-4001-8c84-39934c9dcb89"
+    },
+    {
+        "date": "2026-04-05",
+        "title": "99food *Tradi Delivery",
+        "amount": 47.07,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "dca5e13f-7d15-40ab-abf4-ae49a93cb352"
+    },
+    {
+        "date": "2026-04-05",
+        "title": "Plaza Sul",
+        "amount": 45.8,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "15d60161-1b13-467e-a9e6-9ae733b375e4"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Chocolandia",
+        "amount": 28.27,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "d8d7d166-8da9-4583-b48e-2acbcd520944"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Cenoradas",
+        "amount": 21.9,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "7776994c-4b81-420c-8f47-98d2f360c8e8"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Mmsconviniencia",
+        "amount": 299.0,
+        "categoria": "Resenha",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "43bbef10-427c-4d9f-a95b-e042eb303323"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Keeta*Arcos Dourado",
+        "amount": 69.52,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "27e76d50-5858-434b-98b1-76111513a81d"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Auto Posto Sorriso",
+        "amount": 204.75,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "8b47a18e-3b00-415e-bbcd-d238395f5ff6"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Leitura",
+        "amount": 109.8,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "685cb9e0-0e10-4e3d-ba01-a886f7e284ed"
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Adriana Vieira de Mora",
+        "amount": 20.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "b2248fcc-4e57-465d-b309-52b94da58198"
+    },
+    {
+        "date": "2026-04-03",
+        "title": "Netflix.Com",
+        "amount": 57.8,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "cff156ad-4064-4b2f-81b2-2058df9bdce2"
+    },
+    {
+        "date": "2026-04-03",
+        "title": "Chiquinhos Sorvetes",
+        "amount": 23.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "478e3651-af7b-4500-b99f-e431fdc670e5"
+    },
+    {
+        "date": "2026-04-03",
+        "title": "Drogaria Sao Paulo",
+        "amount": 44.75,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "06107fb7-75ef-44af-b84b-b839805292ad"
+    },
+    {
+        "date": "2026-04-02",
+        "title": "Drogaria Sao Paulo",
+        "amount": 7.19,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "0d36db9a-be4f-464a-b9c2-88f7cd128c27"
+    },
+    {
+        "date": "2026-04-02",
+        "title": "Google Youtube",
+        "amount": 53.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "52f7c3b9-729c-4b9c-bce9-5bce41722429"
+    },
+    {
+        "date": "2026-04-02",
+        "title": "Drogaria Sao Paulo",
+        "amount": 29.98,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "75568912-7f1d-4ad8-992e-234e329c7e8b"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "1cc42fa4-441d-4fa6-9d7d-f0841dd0d73e"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "IOF de compra internacional",
+        "amount": 2.83,
+        "categoria": "Trabalho",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "7224b5e1-0847-4270-bdfd-2798df30d7b8"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "Mlp *Netshoes-Nike - Parcela 1/2",
+        "amount": 144.99,
+        "categoria": "Lucas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "ce13f6d8-7649-4894-8e7f-1eda068ac8be"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "Mcs Estacionamento - Pedro",
+        "amount": 57.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "8973e2cf-3fc5-4162-b8b0-89448796c83d"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "Remediopopular - Parcela 1/2",
+        "amount": 103.83,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "d4ee8e53-1905-483f-be49-3506f1e9059e"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "Uniao Comercio Atacad",
+        "amount": 43.68,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "38d1f51e-9613-4d1a-ad18-f533097df432"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "Luz da Vila Mariana - Pedro",
+        "amount": 42.5,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "66cd64a6-8cff-4ad0-8f53-03cad0479423"
+    },
+    {
+        "date": "2026-04-01",
+        "title": "Upwork -906389987conne",
+        "amount": 81.03,
+        "categoria": "Trabalho",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "82eb97ec-4c5d-49d6-952f-b2f99bc2a824"
+    },
+    {
+        "date": "2026-03-31",
+        "title": "IOF de volta de Upwork -906389987conne",
+        "amount": -2.83,
+        "categoria": "Trabalho",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "9a0c8bcd-b4d8-4774-b1d3-f4dd8958adb3"
+    },
+    {
+        "date": "2026-03-31",
+        "title": "Uniao Comercio Atacad",
+        "amount": 59.56,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "fd881190-5af3-4d5a-9ec0-dc866ed2593e"
+    },
+    {
+        "date": "2026-03-31",
+        "title": "Keeta - Pedro",
+        "amount": 34.59,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "42524e5c-8261-49cc-903e-233420d2c59b"
+    },
+    {
+        "date": "2026-03-31",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 117.86,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a8d7ff83-a719-4cc4-bb9b-a4afbff490c4"
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Parma Comercio Aliment",
+        "amount": 105.4,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "c17477f5-6304-49bf-83b4-6c877c8732a7"
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Mercadolivre*Mercadol",
+        "amount": 66.7,
+        "categoria": "Casa",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "b985a166-c8db-4e79-915c-c96658d206b7"
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Lojas Americanas",
+        "amount": 36.0,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "bd333527-0834-426e-ac7e-c0bc681635f7"
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Raia",
+        "amount": 59.89,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "c41cbaef-504c-41cd-ab1d-44e47c578b6a"
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Cobasi Comercio de Pro",
+        "amount": 69.07,
+        "categoria": "Gatos",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "198dcf53-64c6-4528-b7dd-1c4b830d8efd"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "NuTag*EJL0D85",
+        "amount": 12.0,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "68a63c45-4eb9-452e-bda0-f20901de0451"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Jdaguas - Pedro",
+        "amount": 13.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "5ab02c83-d0e7-4650-9412-60559920cb4d"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Koyodai Pastelaria Sal",
+        "amount": 44.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "dcca7640-9238-4353-9945-b6f411235718"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Ppro *Microsoft",
+        "amount": 9.0,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "e08a0962-1e04-42b3-acd7-e8bda965a5a8"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Msk Pasteis - Pedro",
+        "amount": 36.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a2bef329-2e78-4eb9-a704-3427a4b9eac3"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Gersonmassahiroos - Pedro",
+        "amount": 12.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "929b84c6-58da-484c-bc6c-2717d9854dbe"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Jim.Com* 35648572 Gab - Cabeleireiro",
+        "amount": 80.0,
+        "categoria": "Lucas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "ba704c75-fc81-4982-87c5-0cd75a98049b"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Convem Supermercados D",
+        "amount": 56.8,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "b1e44cf1-5fc6-4b64-aec0-c1c3e779a172"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Chiquinho Sorvetes",
+        "amount": 32.0,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "9f38c2cc-8889-4fbc-940f-b36ae8e7b344"
+    },
+    {
+        "date": "2026-03-29",
+        "title": "Auto Posto Imigrantes-",
+        "amount": 170.06,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "e11847ee-0d69-488d-8093-66b4df21cde3"
+    },
+    {
+        "date": "2026-03-28",
+        "title": "Cobasi Comercio de Pro - Parcela 1/2",
+        "amount": 101.95,
+        "categoria": "Gatos",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "38cae18e-03a0-4884-bcd7-518c9208fde3"
+    },
+    {
+        "date": "2026-03-28",
+        "title": "M Zhou Lanchonete - Pedro",
+        "amount": 124.2,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "4b9905af-1e69-445a-8d18-00300a458c42"
+    },
+    {
+        "date": "2026-03-28",
+        "title": "Mmsconviniencia - Pedro",
+        "amount": 39.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "2a217535-14b3-49f0-a5be-8cd830b45ecf"
+    },
+    {
+        "date": "2026-03-28",
+        "title": "Autopostoirmaos - Pedro",
+        "amount": 242.69,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "e3b930a2-51b2-430d-b4db-703224c18502"
+    },
+    {
+        "date": "2026-03-28",
+        "title": "Mercearia Nogeuweira",
+        "amount": 66.9,
+        "categoria": "Mercado",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "0b6afda9-048a-488c-9af5-97615534df66"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Raia2630",
+        "amount": 94.49,
+        "categoria": "Farmácia",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "cce03713-7bf5-4f9d-acf6-248fcf0a3d90"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Estacionamentowa",
+        "amount": 30.0,
+        "categoria": "Trabalho",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "dfe78ed0-7209-45f5-bdd0-5df1122dafe1"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "295 - Riachuelo-Sp - Parcela 2/2",
+        "amount": 44.99,
+        "categoria": "Roupas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "4f5d79e1-09b2-4ba3-80ba-a2151dc52945"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Amazon - Airfryer Pedro - Parcela 3/5",
+        "amount": 95.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "6e777aaa-e79e-4a1d-9c00-12f7eb1a4b61"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Ec *Melimais",
+        "amount": 9.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "8e1f49be-1f02-4979-b42d-98ab57c7dba2"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Vivara Lojavivara-7164 - Parcela 2/3",
+        "amount": 128.33,
+        "categoria": "Presente",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "39652240-631b-49b4-8c2f-0db320304624"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Mercadolivre* iPad Vitória - Parcela 6/12",
+        "amount": 222.08,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "13766fc9-9c4d-44b5-8d6b-846ae35d97b6"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Morana - Pedro - Parcela 2/2",
+        "amount": 154.85,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "2a54eff0-b84a-4a34-96d7-184b05de07df"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Auto Posto Sorriso",
+        "amount": 123.16,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "c2ec785e-3669-4a0a-bb99-6755989921bd"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "EBW*NuViagens - NuPay - Parcela 10/12",
+        "amount": 142.49,
+        "categoria": "Viagem",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "41a4072b-4189-4566-9db3-6125e8f6800b"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Jose Augusto Rodrigues - Álbum Pedro - Parcela 2/2",
+        "amount": 115.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "9adbbfa9-3c27-4059-be45-b932cab0ce1a"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Lojas Renner Fl - Parcela 2/2",
+        "amount": 69.95,
+        "categoria": "Roupas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "2fcf7ff8-4814-4e30-bff2-22ae032f157f"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Jeronimoatibaia - Parcela 2/2",
+        "amount": 68.5,
+        "categoria": "Fastfood",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "975e21a1-ed35-4683-90db-0a10bcc16f54"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Mercadolivre*Mercadol - Note Pedro - Parcela 5/10",
+        "amount": 264.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "86bdc48b-aca1-438a-989d-5ab92db9ade5"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Life By Vivara - Parcela 2/3",
+        "amount": 158.0,
+        "categoria": "Presente",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "fbd52a59-46a8-4866-b9b9-d6476392c3fb"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Villa Chic - Almoço Trampo",
+        "amount": 78.9,
+        "categoria": "Trabalho",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "1a64b3b2-3767-40fe-8805-4055588180da"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "LG TV nova - Parcela 12/12",
+        "amount": 243.67,
+        "categoria": "Casa",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "8f5aa97a-1e50-469c-b706-a2d21d1a983a"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Gomes Minimercado - Pedro",
+        "amount": 53.73,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "fba356dc-f02b-4978-96c6-094941ef4b00"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Contas do Detran",
+        "amount": 194.17,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "e137bec7-9d92-49cd-a565-06c15afeb861"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Gocase *Gocase - Parcela 2/3",
+        "amount": 94.93,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "f73a604d-0d59-4867-8fe2-4f75de65645b"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Mp *Pijamasmodabr - Parcela 2/2",
+        "amount": 89.95,
+        "categoria": "Vitória",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "a418c126-dd8b-40fe-a11c-7f18faf75bc7"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Rrb Comercio e Confecc - Tênis Pedro - Parcela 2/3",
+        "amount": 126.66,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "4e79d7cb-e11d-4004-b3e2-d306db2085df"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Emporio do Aco - Pedro - Parcela 2/2",
+        "amount": 239.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "49ccffea-2b3d-4a10-bae2-4a0e25e64ba5"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Youcom Fl - Parcela 2/2",
+        "amount": 99.95,
+        "categoria": "Roupas",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "bbbf7c0b-fcda-4e79-8d76-8c127977832f"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Mobly Comercio Varejis - Parcela 3/10",
+        "amount": 285.14,
+        "categoria": "Casa",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "1d5cf933-bf86-4b4a-9e13-b9ac06c85918"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "G B Sp Comercio de - Pneus Carro - Parcela 5/6",
+        "amount": 96.63,
+        "categoria": "Carro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "efdb6c62-c7f1-4b70-86ed-8b40fbec08b5"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Carrefour Anchieta Petz Pedro - Parcela 5/12",
+        "amount": 6.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "ff10ac64-732f-4751-95fe-8d8ec97fd825"
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Ebn *Spotify",
+        "amount": 40.9,
+        "categoria": "Assinatura",
+        "mes_referencia": "Abril",
+        "arquivo_origem": "Nubank_2026-05-03 (3).csv",
+        "id": "4bd1926f-fd00-423e-8649-987259db26b3"
+    },
+    {
+        "date": "2026-05-24",
+        "title": "G B Sp Comercio de - Pneus Carro - Parcela 6/6",
+        "amount": 96.63,
+        "categoria": "Carro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-22",
+        "title": "Rw Negocios Comerciais - Crocs Vitória - Parcela 2/3",
+        "amount": 124.65,
+        "categoria": "Vitória",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-17",
+        "title": "Mercadolivre* iPad Vitória - Parcela 7/12",
+        "amount": 222.08,
+        "categoria": "Vitória",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-17",
+        "title": "Mobly Comercio Varejis - Parcela 4/10",
+        "amount": 285.14,
+        "categoria": "Casa",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-13",
+        "title": "Centro Medico Veterina - Pedro - Parcela 2/2",
+        "amount": 105.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-11",
+        "title": "Amazon - Airfryer Pedro - Parcela 4/5",
+        "amount": 95.0,
+        "categoria": "Pedro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-07",
+        "title": "Life By Vivara - Parcela 3/3",
+        "amount": 158.0,
+        "categoria": "Presente",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-06",
+        "title": "Amazon - celular Vitória - Parcela 2/12",
+        "amount": 424.83,
+        "categoria": "Vitória",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-05",
+        "title": "Vivara Lojavivara-7164 - Parcela 3/3",
+        "amount": 128.33,
+        "categoria": "Presente",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-05",
+        "title": "EBW*NuViagens - NuPay - Parcela 11/12",
+        "amount": 142.49,
+        "categoria": "Viagem",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-03",
+        "title": "Contas do Detran",
+        "amount": 194.17,
+        "categoria": "Carro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-05-01",
+        "title": "Rrb Comercio e Confecc - Tênis Pedro - Parcela 3/3",
+        "amount": 126.66,
+        "categoria": "Pedro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-04-30",
+        "title": "Mlp *Netshoes-Nike - Parcela 2/2",
+        "amount": 144.99,
+        "categoria": "Lucas",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-04-30",
+        "title": "Remediopopular - Parcela 2/2",
+        "amount": 103.83,
+        "categoria": "Farmácia",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-04-29",
+        "title": "Carrefour Anchieta Petz Pedro - Parcela 6/12",
+        "amount": 6.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-04-27",
+        "title": "Cobasi Comercio de Pro - Parcela 2/2",
+        "amount": 101.95,
+        "categoria": "Gatos",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-04-26",
+        "title": "Gocase *Gocase - Parcela 3/3",
+        "amount": 94.93,
+        "categoria": "Vitória",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    },
+    {
+        "date": "2026-04-26",
+        "title": "Mercadolivre*Mercadol - Note Pedro - Parcela 6/10",
+        "amount": 264.9,
+        "categoria": "Pedro",
+        "mes_referencia": "Maio",
+        "arquivo_origem": "Nubank_2026-06-03 (1).csv"
+    }
+]

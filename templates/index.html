@@ -1,0 +1,669 @@
+﻿<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Granafy Pro | Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body id="appBody" class="flex h-screen bg-slate-50">
+    <aside
+      id="sidebarNav"
+      class="sidebar py-6 px-4 bg-white border-r border-slate-200 flex flex-col w-64 transition-all duration-300"
+    >
+      <div class="flex items-center justify-between mb-4 px-2">
+        <h2 class="sidebar-label text-[10px] font-black text-slate-400 uppercase tracking-widest">
+          Navegação
+        </h2>
+        <button
+          type="button"
+          onclick="toggleSidebar()"
+          class="text-slate-500 hover:bg-slate-100 rounded-lg px-2 py-1 text-xs font-black"
+          title="Expandir/Recolher menu"
+        >
+          ☰
+        </button>
+      </div>
+
+      <nav class="collapse-hide flex-1 overflow-y-auto space-y-4">
+        <a
+          href="{{ url_for('index', mes=mes_atual, view='transacoes') }}"
+          class="block p-3 rounded-xl text-[11px] font-black uppercase transition {% if view_mode == 'transacoes' %}bg-blue-50 text-blue-700{% else %}text-slate-600 hover:bg-slate-100{% endif %}"
+        >
+          Transações
+        </a>
+
+        <a
+          href="{{ url_for('index', mes=mes_atual, view='dashboard') }}"
+          class="block p-3 rounded-xl text-[11px] font-black uppercase transition {% if view_mode == 'dashboard' %}bg-emerald-50 text-emerald-700{% else %}text-slate-600 hover:bg-slate-100{% endif %}"
+        >
+          Dashboard
+        </a>
+
+        <div>
+          <h3 class="sidebar-label text-[10px] font-black text-slate-400 uppercase tracking-widest px-2 mb-2">
+            Meses Importados
+          </h3>
+          <div class="space-y-1">
+            {% for mes in meses_disponiveis %}
+            <a
+              href="{{ url_for('index', mes=mes, view=view_mode) }}"
+              class="block p-3 rounded-xl text-[11px] font-bold transition {% if mes == mes_atual %}bg-slate-900 text-white{% else %}text-slate-600 hover:bg-slate-100{% endif %}"
+            >
+              {{ mes }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div>
+          <h3 class="sidebar-label text-[10px] font-black text-slate-400 uppercase tracking-widest px-2 mb-2">
+            Arquivos de {{ mes_atual }}
+          </h3>
+          <div class="pl-1 space-y-1">
+            {% for nome in arquivos_importados %}
+            <div
+              class="flex justify-between items-center p-2 text-[10px] text-slate-500 hover:bg-slate-50 rounded-lg group"
+            >
+              <span class="truncate">📄 {{ nome }}</span>
+              <button
+                onclick='removerArquivo({{ nome|tojson }}, {{ mes_atual|tojson }})'
+                class="opacity-0 group-hover:opacity-100 text-red-500"
+              >
+                x
+              </button>
+            </div>
+            {% else %}
+            <div class="p-2 text-[10px] text-slate-400">Nenhum arquivo neste mês.</div>
+            {% endfor %}
+          </div>
+        </div>
+      </nav>
+
+      <div class="mt-auto space-y-2">
+        <button
+          onclick="openImportModal()"
+          class="collapse-hide w-full p-3 bg-slate-900 text-white rounded-xl font-bold text-[10px] uppercase shadow-lg hover:bg-black transition"
+        >
+          Importar CSV
+        </button>
+        <button
+          onclick="openConfig(); renderizarEmojisConfig();"
+          class="w-full p-3 text-slate-500 font-bold text-[10px] uppercase hover:bg-slate-100 rounded-xl transition flex items-center justify-center gap-2"
+        >
+          <svg
+            class="h-4 w-4 fill-current"
+            viewBox="0 0 36 36"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <title>settings-line</title>
+            <path d="M18.1,11c-3.9,0-7,3.1-7,7s3.1,7,7,7c3.9,0,7-3.1,7-7S22,11,18.1,11z M18.1,23c-2.8,0-5-2.2-5-5s2.2-5,5-5c2.8,0,5,2.2,5,5S20.9,23,18.1,23z"></path>
+            <path d="M32.8,14.7L30,13.8l-0.6-1.5l1.4-2.6c0.3-0.6,0.2-1.4-0.3-1.9l-2.4-2.4c-0.5-0.5-1.3-0.6-1.9-0.3l-2.6,1.4l-1.5-0.6l-0.9-2.8C21,2.5,20.4,2,19.7,2h-3.4c-0.7,0-1.3,0.5-1.4,1.2L14,6c-0.6,0.1-1.1,0.3-1.6,0.6L9.8,5.2C9.2,4.9,8.4,5,7.9,5.5L5.5,7.9C5,8.4,4.9,9.2,5.2,9.8l1.3,2.5c-0.2,0.5-0.4,1.1-0.6,1.6l-2.8,0.9C2.5,15,2,15.6,2,16.3v3.4c0,0.7,0.5,1.3,1.2,1.5L6,22.1l0.6,1.5l-1.4,2.6c-0.3,0.6-0.2,1.4,0.3,1.9l2.4,2.4c0.5,0.5,1.3,0.6,1.9,0.3l2.6-1.4l1.5,0.6l0.9,2.9c0.2,0.6,0.8,1.1,1.5,1.1h3.4c0.7,0,1.3-0.5,1.5-1.1l0.9-2.9l1.5-0.6l2.6,1.4c0.6,0.3,1.4,0.2,1.9-0.3l2.4-2.4c0.5-0.5,0.6-1.3,0.3-1.9l-1.4-2.6l0.6-1.5l2.9-0.9c0.6-0.2,1.1-0.8,1.1-1.5v-3.4C34,15.6,33.5,14.9,32.8,14.7z M32,19.4l-3.6,1.1L28.3,21c-0.3,0.7-0.6,1.4-0.9,2.1l-0.3,0.5l1.8,3.3l-2,2l-3.3-1.8l-0.5,0.3c-0.7,0.4-1.4,0.7-2.1,0.9l-0.5,0.1L19.4,32h-2.8l-1.1-3.6L15,28.3c-0.7-0.3-1.4-0.6-2.1-0.9l-0.5-0.3l-3.3,1.8l-2-2l1.8-3.3l-0.3-0.5c-0.4-0.7-0.7-1.4-0.9-2.1l-0.1-0.5L4,19.4v-2.8l3.4-1l0.2-0.5c0.2-0.8,0.5-1.5,0.9-2.2l0.3-0.5L7.1,9.1l2-2l3.2,1.8l0.5-0.3c0.7-0.4,1.4-0.7,2.2-0.9l0.5-0.2L16.6,4h2.8l1.1,3.5L21,7.7c0.7,0.2,1.4,0.5,2.1,0.9l0.5,0.3l3.3-1.8l2,2l-1.8,3.3l0.3,0.5c0.4,0.7,0.7,1.4,0.9,2.1l0.1,0.5l3.6,1.1V19.4z"></path>
+            <rect x="0" y="0" width="36" height="36" fill-opacity="0"></rect>
+          </svg>
+          <span class="config-label">Configurações</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="flex-1 flex flex-col overflow-hidden">
+      <header
+        class="p-4 bg-white border-b border-slate-200"
+      >
+        {% if view_mode == 'dashboard' %}
+        <div class="flex justify-between items-center">
+          <h1 class="text-2xl font-black tracking-tighter">
+            Dashboard / <span class="text-emerald-600">Comparativo Mensal</span>
+          </h1>
+          <div class="text-[11px] text-slate-500 font-bold">Mês de contexto: {{ mes_atual }}</div>
+        </div>
+        {% else %}
+        <div class="space-y-3">
+          <div class="flex justify-between items-center gap-3">
+            <h1 class="text-2xl font-black tracking-tighter">
+              Financeiro / <span class="text-blue-600">{{ mes_atual }}</span>
+            </h1>
+            <div class="flex gap-2">
+              <input
+                type="text"
+                id="buscaProduto"
+                onkeyup="filtrarTabelaV2()"
+                placeholder="Buscar produto..."
+                class="px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-blue-100"
+              />
+              <input
+                type="text"
+                id="buscaCategoria"
+                onkeyup="filtrarTabelaV2()"
+                placeholder="Filtrar categoria..."
+                class="px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-blue-100"
+              />
+              <button
+                onclick='categorizarAutomatico({{ mes_atual|tojson }})'
+                class="px-4 py-2 bg-emerald-50 text-emerald-600 font-black text-[10px] uppercase rounded-xl hover:bg-emerald-100 transition"
+              >
+                Auto-Categorizar
+              </button>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 lg:grid-cols-5 gap-2">
+            <div class="card-financeiro card-compact border-blue-500">
+              <p class="txt-label-card">Receita Total</p>
+              <h3 class="text-lg font-black text-slate-900">
+                R$ {{ "%.2f"|format(card_receita_total)|replace('.', ',') }}
+              </h3>
+            </div>
+            <div class="card-financeiro card-compact border-slate-800">
+              <p class="txt-label-card">Total Cartão</p>
+              <h3 class="text-lg font-black text-slate-900">
+                R$ {{ "%.2f"|format(card_total_cartao)|replace('.', ',') }}
+              </h3>
+            </div>
+            <div class="card-financeiro card-compact border-orange-400">
+              <p class="txt-label-card">Total Pedro</p>
+              <h3 class="text-lg font-black text-slate-900">
+                R$ {{ "%.2f"|format(card_total_pedro)|replace('.', ',') }}
+              </h3>
+            </div>
+            <div class="card-financeiro card-compact border-purple-500">
+              <p class="txt-label-card">Total Lucas</p>
+              <h3 class="text-lg font-black text-slate-900">
+                R$ {{ "%.2f"|format(card_total_lucas)|replace('.', ',') }}
+              </h3>
+            </div>
+            <div
+              class="card-financeiro card-compact {% if card_livre < 0 %}border-red-500 bg-red-50{% else %}border-emerald-500 bg-emerald-50{% endif %}"
+            >
+              <p class="txt-label-card">Valor restante</p>
+              <h3 class="text-lg font-black text-slate-900">
+                R$ {{ "%.2f"|format(card_livre)|replace('.', ',') }}
+              </h3>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </header>
+
+      <div class="flex-1 overflow-y-auto p-6 space-y-6">
+        {% if view_mode == 'dashboard' %}
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="card-financeiro border-slate-800">
+            <p class="txt-label-card">Meses no histórico</p>
+            <h3 class="text-lg font-black text-slate-900">{{ dashboard_mensal|length }}</h3>
+          </div>
+          <div class="card-financeiro border-blue-500">
+            <p class="txt-label-card">Média de gastos</p>
+            <h3 class="text-lg font-black text-slate-900">R$ {{ "%.2f"|format(dashboard_media)|replace('.', ',') }}</h3>
+          </div>
+          <div class="card-financeiro border-red-500">
+            <p class="txt-label-card">Maior mês</p>
+            <h3 class="text-lg font-black text-slate-900">{{ dashboard_maior_mes.mes if dashboard_maior_mes else '-' }}</h3>
+            <p class="text-[11px] text-slate-500">R$ {{ "%.2f"|format(dashboard_maior_mes.total if dashboard_maior_mes else 0)|replace('.', ',') }}</p>
+          </div>
+          <div class="card-financeiro border-emerald-500">
+            <p class="txt-label-card">Menor mês</p>
+            <h3 class="text-lg font-black text-slate-900">{{ dashboard_menor_mes.mes if dashboard_menor_mes else '-' }}</h3>
+            <p class="text-[11px] text-slate-500">R$ {{ "%.2f"|format(dashboard_menor_mes.total if dashboard_menor_mes else 0)|replace('.', ',') }}</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-12 gap-6">
+          <div class="col-span-7 bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+            <div class="flex justify-between items-center mb-4">
+              <h3 class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Gasto por Mês</h3>
+              <span class="text-[10px] text-slate-400">Comparação rápida</span>
+            </div>
+            <div class="space-y-3">
+              {% for item in dashboard_mensal %}
+              <div>
+                <div class="flex justify-between text-[11px] font-bold text-slate-700 mb-1">
+                  <span>{{ item.mes }}</span>
+                  <span>R$ {{ "%.2f"|format(item.total)|replace('.', ',') }}</span>
+                </div>
+                <div class="h-2.5 bg-slate-100 rounded-full overflow-hidden">
+                  <div class="h-2.5 bg-slate-800 rounded-full" style="width: {{ "%.2f"|format(item.percentual) }}%;"></div>
+                </div>
+                <div class="text-[10px] text-slate-400 mt-1">
+                  {{ item.quantidade }} compras | maior categoria: {{ item.top_categoria }} (R$ {{ "%.2f"|format(item.top_valor)|replace('.', ',') }})
+                </div>
+              </div>
+              {% else %}
+              <p class="text-[11px] text-slate-400">Sem dados suficientes para o dashboard.</p>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="col-span-5 bg-white rounded-2xl border border-slate-200 shadow-sm p-6 space-y-4">
+            <h3 class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Comparar Dois Meses</h3>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="text-[10px] text-slate-500 font-bold uppercase">Mês A</label>
+                <select id="compararMesA" class="w-full mt-1 p-2 rounded-lg border border-slate-200 bg-slate-50 text-xs">
+                  {% for mes in meses_disponiveis %}
+                  <option value="{{ mes }}">{{ mes }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div>
+                <label class="text-[10px] text-slate-500 font-bold uppercase">Mês B</label>
+                <select id="compararMesB" class="w-full mt-1 p-2 rounded-lg border border-slate-200 bg-slate-50 text-xs">
+                  {% for mes in meses_disponiveis %}
+                  <option value="{{ mes }}">{{ mes }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <p class="text-[10px] font-black text-slate-400 uppercase">Total Mês A</p>
+                <p id="totalMesA" class="text-lg font-black text-slate-900">R$ 0,00</p>
+              </div>
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <p class="text-[10px] font-black text-slate-400 uppercase">Total Mês B</p>
+                <p id="totalMesB" class="text-lg font-black text-slate-900">R$ 0,00</p>
+              </div>
+            </div>
+
+            <div class="p-3 rounded-xl border" id="blocoDeltaTotal">
+              <p class="text-[10px] font-black uppercase text-slate-400">Diferença (B - A)</p>
+              <p id="deltaTotal" class="text-lg font-black text-slate-900">R$ 0,00</p>
+              <p id="deltaTotalPercentual" class="text-[11px] text-slate-500">0,00%</p>
+            </div>
+
+            <div class="pt-2 border-t border-slate-100">
+              <p class="text-[10px] font-black uppercase text-slate-400 mb-2">Diferença por Categoria (B - A)</p>
+              <div id="listaComparativoCategorias" class="space-y-2 max-h-64 overflow-y-auto pr-1 custom-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="grid grid-cols-12 gap-3">
+          <div
+            class="col-span-7 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden"
+          >
+            <table class="w-full text-left table-fixed">
+              <colgroup>
+                <col style="width: 92px" />
+                <col />
+                <col style="width: 112px" />
+                <col style="width: 124px" />
+              </colgroup>
+              <thead>
+                <tr class="bg-slate-50 border-b border-slate-200">
+                  <th onclick="ordenarTabela(0)" class="px-6 py-4 text-[10px] font-black uppercase text-slate-400 cursor-pointer hover:text-blue-600">Data</th>
+                  <th onclick="ordenarTabela(1)" class="px-6 py-4 text-[10px] font-black uppercase text-slate-400 cursor-pointer hover:text-blue-600">Descrição</th>
+                  <th onclick="ordenarTabela(2)" class="px-6 py-4 text-[10px] font-black uppercase text-slate-400 cursor-pointer hover:text-blue-600">Categoria</th>
+                  <th onclick="ordenarTabela(3)" class="px-6 py-4 text-right text-[10px] font-black uppercase text-slate-400 cursor-pointer hover:text-blue-600 whitespace-nowrap">Valor</th>
+                </tr>
+              </thead>
+              <tbody id="tabela-body" class="divide-y divide-slate-50">
+                {% for t in transacoes %}
+                <tr class="table-row hover:bg-slate-50 transition-colors">
+                  <td class="px-6 py-3 text-[11px] text-slate-400 tabular-nums">{{ t.date }}</td>
+                  <td class="px-6 py-3 text-[11px] font-bold text-slate-800 truncate" title="{{ t.title }}">{{ t.title }}</td>
+                  <td class="px-6 py-3">
+                    <div class="flex items-center gap-2">
+                      <span class="text-sm">{{ emojis.get(t.categoria, '🏷️') }}</span>
+                      <input
+                        type="text"
+                        value="{{ t.categoria }}"
+                        onchange='updateCat({{ t.title|tojson }}, this.value)'
+                        class="cat-input"
+                      />
+                    </div>
+                  </td>
+                  <td class="px-6 py-3 text-right text-[12px] font-black tabular-nums whitespace-nowrap">
+                    R$&nbsp;{{ "%.2f"|format(t.amount)|replace('.', ',') }}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+            <div id="tabela-footer" class="hidden p-4 bg-slate-900 text-white flex justify-between items-center">
+              <span class="text-[10px] font-black uppercase">Soma do Filtro</span>
+              <span id="soma-filtro" class="text-lg font-black">R$ 0,00</span>
+            </div>
+          </div>
+
+          <div class="col-span-2 space-y-4">
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+              <h3 class="text-[10px] font-black text-slate-400 uppercase mb-4 tracking-widest">
+                Resumo de Gastos
+              </h3>
+              <div class="space-y-2">
+                {% for cat, valor in resumo.items() %}
+                <div
+                  onclick='clicarFiltro({{ cat|tojson }})'
+                  class="summary-item flex justify-between items-center group cursor-pointer hover:bg-slate-50 p-1 rounded-lg transition-colors gap-2"
+                >
+                  <span class="min-w-0 text-[11px] font-bold text-slate-700 uppercase flex items-center gap-2">
+                    <span class="truncate">{{ emojis.get(cat, '🏷️') }} {{ cat }}</span>
+                    <span class="text-[10px] text-slate-400 font-normal">({{ contagem.get(cat, 0) }})</span>
+                  </span>
+
+                  <span class="text-[11px] font-black text-slate-900 whitespace-nowrap shrink-0">
+                    R$ {{ "%.2f"|format(valor)|replace('.', ',') }}
+                  </span>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+          <div class="col-span-3 space-y-4">
+            <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+              <h3 class="text-[10px] font-black text-emerald-600 uppercase mb-3 tracking-widest">
+                Proventos / Receitas
+              </h3>
+              <div class="space-y-2 max-h-[240px] overflow-y-auto pr-1 custom-scrollbar">
+                {% for item in receitas_detalhadas %}
+                <div class="flex justify-between items-center">
+                  <span class="text-[11px] font-bold text-slate-600 uppercase">💸 {{ item.nome }}</span>
+                  <span class="text-[11px] font-black text-slate-900">R$ {{ "%.2f"|format(item.valor|float)|replace('.', ',') }}</span>
+                </div>
+                {% endfor %}
+                <div class="pt-2 mt-2 border-t border-dashed border-slate-200 flex justify-between items-center">
+                  <span class="text-[10px] font-black text-slate-900 uppercase">Total Receitas</span>
+                  <span class="text-[12px] font-black text-emerald-600">R$ {{ "%.2f"|format(card_receita_total)|replace('.', ',') }}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+              <h3 class="text-[10px] font-black text-orange-500 uppercase mb-3 tracking-widest">
+                Gastos Separados do Cartão Pedro
+              </h3>
+              <div class="space-y-2 max-h-[220px] overflow-y-auto pr-1 custom-scrollbar">
+                {% for item in pedro_extras_detalhados %}
+                <div class="flex justify-between items-center">
+                  <span class="text-[11px] font-bold text-slate-600 uppercase">🧾 {{ item.nome }}</span>
+                  <span class="text-[11px] font-black text-slate-900">R$ {{ "%.2f"|format(item.valor|float)|replace('.', ',') }}</span>
+                </div>
+                {% else %}
+                <div class="text-[11px] text-slate-400">Nenhum gasto separado cadastrado para este mês.</div>
+                {% endfor %}
+                <div class="pt-2 mt-2 border-t border-dashed border-slate-200 flex justify-between items-center">
+                  <span class="text-[10px] font-black text-slate-900 uppercase">Total Separado Pedro</span>
+                  <span class="text-[12px] font-black text-orange-600">R$ {{ "%.2f"|format(card_total_pedro_extras)|replace('.', ',') }}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+              <h3 class="text-[10px] font-black text-red-500 uppercase mb-3 tracking-widest">
+                Contas a Pagar (Fixas)
+              </h3>
+              <div class="space-y-2 max-h-[300px] overflow-y-auto pr-1 custom-scrollbar">
+                {% for item in fixas_detalhadas %}
+                <div class="flex justify-between items-center gap-2">
+                  <label class="flex items-center gap-2 text-[11px] font-bold text-slate-600 uppercase">
+                    <input
+                      type="checkbox"
+                      {% if item.get('pago') %}checked{% endif %}
+                      onchange='toggleContaFixaPaga({{ item.id|tojson }}, this.checked)'
+                      class="h-4 w-4 accent-emerald-600 cursor-pointer"
+                    />
+                    <span>📌 {{ item.nome }}</span>
+                  </label>
+                  <span class="text-[11px] font-black {% if item.get('pago') %}text-emerald-600{% else %}text-slate-900{% endif %}">
+                    R$ {{ "%.2f"|format(item.valor|float)|replace('.', ',') }}
+                  </span>
+                </div>
+                {% endfor %}
+                <div class="pt-2 mt-2 border-t border-dashed border-slate-200 flex justify-between items-center">
+                  <span class="text-[10px] font-black text-slate-900 uppercase">Total Fixas (pendentes)</span>
+                  <span class="text-[12px] font-black text-red-600">R$ {{ "%.2f"|format(card_total_fixas_pendentes)|replace('.', ',') }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </main>
+
+    <div
+      id="importModal"
+      class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 hidden items-center justify-center"
+      onclick="if (event.target == this) closeImportModal();"
+    >
+      <div class="bg-white p-8 rounded-3xl shadow-2xl w-96" onclick="event.stopPropagation()">
+        <h2 class="text-xl font-black uppercase mb-6">Importar Fatura</h2>
+        <form action="/upload" method="post" enctype="multipart/form-data" class="space-y-4">
+          <div>
+            <label class="text-[10px] font-black uppercase text-slate-500">Mês de referência</label>
+            <select
+              name="mes"
+              class="mt-1 w-full p-3 bg-slate-50 border rounded-xl text-xs"
+              required
+            >
+              {% for mes in meses %}
+              <option value="{{ mes }}" {% if mes == mes_atual %}selected{% endif %}>{{ mes }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <input type="file" name="file" accept=".csv" class="w-full p-3 bg-slate-50 border rounded-xl text-xs" required />
+          <button
+            type="submit"
+            class="w-full p-4 bg-blue-600 text-white rounded-2xl font-black uppercase text-[10px]"
+          >
+            Processar Arquivo
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div
+      id="configModal"
+      class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 hidden items-center justify-center"
+      onclick="if (event.target == this) closeConfig();"
+    >
+      <div class="bg-white p-8 rounded-3xl shadow-2xl w-full max-w-5xl" onclick="event.stopPropagation()">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-xl font-black uppercase italic">Configurações</h2>
+          <button onclick="closeConfig()" class="text-slate-400">x</button>
+        </div>
+
+        <div class="grid grid-cols-3 gap-8">
+          <div class="space-y-4">
+            <div class="flex justify-between items-center">
+              <h3 class="text-[10px] font-black text-blue-600 uppercase">Receitas de {{ mes_atual }}</h3>
+              <button
+                onclick="adicionarLinhaReceita()"
+                class="text-[9px] bg-slate-100 px-2 py-1 rounded-lg font-bold hover:bg-slate-200"
+              >
+                + ADD
+              </button>
+            </div>
+            <div id="lista-receitas" class="space-y-2 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
+              {% for item in receitas_detalhadas %}
+              <div class="grid grid-cols-[1fr_auto] gap-2 items-center item-receita bg-slate-50 p-2 rounded-xl border border-slate-100">
+                <div class="flex gap-2">
+                  <input
+                    type="text"
+                    placeholder="Nome"
+                    class="flex-1 bg-transparent text-[10px] font-bold uppercase outline-none"
+                    value="{{ item.nome }}"
+                  />
+                  <input
+                    type="number"
+                    placeholder="Valor"
+                    class="w-20 bg-white border rounded-md text-[10px] font-bold p-1"
+                    value="{{ item.valor }}"
+                    step="0.01"
+                  />
+                </div>
+                <button onclick="this.parentElement.remove()" class="text-slate-300 hover:text-red-500">x</button>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="pt-4 border-t border-slate-200 space-y-4">
+              <div class="flex justify-between items-center">
+                <h3 class="text-[10px] font-black text-orange-500 uppercase">Gastos Separados do Pedro</h3>
+                <button
+                  onclick="adicionarLinhaPedroExtra()"
+                  class="text-[9px] bg-slate-100 px-2 py-1 rounded-lg font-bold hover:bg-slate-200"
+                >
+                  + ADD
+                </button>
+              </div>
+              <div id="lista-pedro-extras" class="space-y-2 max-h-[220px] overflow-y-auto pr-2 custom-scrollbar">
+                {% for item in pedro_extras_detalhados %}
+                <div class="grid grid-cols-[1fr_auto] gap-2 items-center item-pedro-extra bg-orange-50 p-2 rounded-xl border border-orange-100">
+                  <div class="flex gap-2">
+                    <input
+                      type="text"
+                      placeholder="Nome"
+                      class="flex-1 bg-transparent text-[10px] font-bold uppercase outline-none"
+                      value="{{ item.nome }}"
+                    />
+                    <input
+                      type="number"
+                      placeholder="Valor"
+                      class="w-20 bg-white border rounded-md text-[10px] font-bold p-1"
+                      value="{{ item.valor }}"
+                      step="0.01"
+                    />
+                  </div>
+                  <button onclick="this.parentElement.remove()" class="text-slate-300 hover:text-red-500">x</button>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <div class="flex justify-between items-center">
+              <h3 class="text-[10px] font-black text-red-500 uppercase">Contas Fixas</h3>
+              <button
+                onclick="adicionarLinhaFixa()"
+                class="text-[9px] bg-slate-100 px-2 py-1 rounded-lg font-bold hover:bg-slate-200"
+              >
+                + ADD
+              </button>
+            </div>
+            <div id="lista-fixas" class="space-y-2 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
+              {% for item in fixas_detalhadas %}
+              <div class="grid grid-cols-[1fr_auto] gap-2 items-center item-fixa bg-slate-50 p-2 rounded-xl border border-slate-100">
+                <div class="flex gap-2">
+                  <input type="hidden" class="fixa-id" value="{{ item.id }}" />
+                  <input
+                    type="text"
+                    placeholder="Nome"
+                    class="flex-1 bg-transparent text-[10px] font-bold uppercase outline-none"
+                    value="{{ item.nome }}"
+                  />
+                  <input
+                    type="number"
+                    placeholder="Valor"
+                    class="w-20 bg-white border rounded-md text-[10px] font-bold p-1"
+                    value="{{ item.valor }}"
+                    step="0.01"
+                  />
+                  <label class="flex items-center gap-1 text-[9px] font-black text-slate-500 uppercase">
+                    <input type="checkbox" class="fixa-paga h-3.5 w-3.5 accent-emerald-600" {% if item.get('pago') %}checked{% endif %} />
+                    Pago
+                  </label>
+                </div>
+                <button onclick="this.parentElement.remove()" class="text-slate-300 hover:text-red-500">x</button>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-[10px] font-black text-emerald-600 uppercase">Dicionário de Emojis</h3>
+            <div id="emoji-settings-list" class="space-y-2 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar"></div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-end">
+          <button
+            onclick="salvarERecalcular()"
+            class="px-10 py-4 bg-slate-900 text-white font-black rounded-2xl uppercase text-[10px]"
+          >
+            Salvar Configurações
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function adicionarLinhaFixa() {
+        const container = document.getElementById("lista-fixas");
+        const div = document.createElement("div");
+        div.className =
+          "grid grid-cols-[1fr_auto] gap-2 items-center item-fixa bg-slate-50 p-2 rounded-xl border border-slate-100";
+        div.innerHTML = `
+        <div class="flex gap-2">
+          <input type="hidden" class="fixa-id" value="">
+          <input type="text" placeholder="Ex: Aluguel" class="flex-1 bg-transparent text-[10px] font-bold uppercase outline-none">
+          <input type="number" placeholder="0.00" class="w-20 bg-white border rounded-md text-[10px] font-bold p-1" step="0.01">
+          <label class="flex items-center gap-1 text-[9px] font-black text-slate-500 uppercase">
+            <input type="checkbox" class="fixa-paga h-3.5 w-3.5 accent-emerald-600">
+            Pago
+          </label>
+        </div>
+        <button onclick="this.parentElement.remove()" class="text-slate-300 hover:text-red-500">x</button>
+    `;
+        container.appendChild(div);
+      }
+
+      function adicionarLinhaReceita() {
+        const container = document.getElementById("lista-receitas");
+        const div = document.createElement("div");
+        div.className =
+          "grid grid-cols-[1fr_auto] gap-2 items-center item-receita bg-slate-50 p-2 rounded-xl border border-slate-100";
+        div.innerHTML = `
+        <div class="flex gap-2">
+          <input type="text" placeholder="Ex: Salário" class="flex-1 bg-transparent text-[10px] font-bold uppercase outline-none">
+          <input type="number" placeholder="0.00" class="w-20 bg-white border rounded-md text-[10px] font-bold p-1" step="0.01">
+        </div>
+        <button onclick="this.parentElement.remove()" class="text-slate-300 hover:text-red-500">x</button>
+    `;
+        container.appendChild(div);
+      }
+
+      function adicionarLinhaPedroExtra() {
+        const container = document.getElementById("lista-pedro-extras");
+        const div = document.createElement("div");
+        div.className =
+          "grid grid-cols-[1fr_auto] gap-2 items-center item-pedro-extra bg-orange-50 p-2 rounded-xl border border-orange-100";
+        div.innerHTML = `
+        <div class="flex gap-2">
+          <input type="text" placeholder="Ex: Pix Pedro" class="flex-1 bg-transparent text-[10px] font-bold uppercase outline-none">
+          <input type="number" placeholder="0.00" class="w-20 bg-white border rounded-md text-[10px] font-bold p-1" step="0.01">
+        </div>
+        <button onclick="this.parentElement.remove()" class="text-slate-300 hover:text-red-500">x</button>
+    `;
+        container.appendChild(div);
+      }
+    </script>
+
+    <script id="data-emojis" type="application/json">{{ emojis | tojson | safe }}</script>
+    <script id="data-dashboard" type="application/json">{{ dashboard_mensal | tojson | safe }}</script>
+    <script id="data-dashboard-categorias" type="application/json">{{ dashboard_categorias | tojson | safe }}</script>
+
+    <script>
+      const DICIONARIO_EMOJIS_ATUAL = JSON.parse(document.getElementById("data-emojis").textContent);
+      const DASHBOARD_MENSAL = JSON.parse(document.getElementById("data-dashboard").textContent);
+      const DASHBOARD_CATEGORIAS = JSON.parse(document.getElementById("data-dashboard-categorias").textContent);
+      const MES_ATUAL = {{ mes_atual | tojson }};
+    </script>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
