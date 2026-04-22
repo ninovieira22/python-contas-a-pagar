@@ -8,13 +8,16 @@ import unicodedata
 import uuid
 
 app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Configurações de Arquivos
-DB_FILE = 'transacoes_salvas.json'
-DB_MAPA = 'aprendizado_manual.json'
-DB_MAPA_LEGADO = 'mapeamento_aprendido.json'
-DB_CONFIG = 'config.json'
-DB_EMOJI = 'emojis.json'
+DATA_DIR = os.path.join(BASE_DIR, 'data')
+IMPORTS_DIR = os.path.join(BASE_DIR, 'imports')
+DB_FILE = os.path.join(DATA_DIR, 'transacoes_salvas.json')
+DB_MAPA = os.path.join(DATA_DIR, 'aprendizado_manual.json')
+DB_MAPA_LEGADO = os.path.join(DATA_DIR, 'mapeamento_aprendido.json')
+DB_CONFIG = os.path.join(DATA_DIR, 'config.json')
+DB_EMOJI = os.path.join(DATA_DIR, 'emojis.json')
 MESES = [
     'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
     'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
@@ -36,6 +39,9 @@ def gerenciar_json(arquivo, acao='ler', dados=None, default=[]):
                 return default
         return default
     elif acao == 'salvar':
+        pasta = os.path.dirname(arquivo)
+        if pasta:
+            os.makedirs(pasta, exist_ok=True)
         with open(arquivo, 'w', encoding='utf-8') as f:
             json.dump(dados, f, indent=4, ensure_ascii=False)
 
